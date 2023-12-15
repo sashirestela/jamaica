@@ -20,9 +20,6 @@ components:
         - name: m2
           path: /home/user/.m2
       mountSources: true
-      env:
-        - name: GEMINI_API_KEY
-          value: AIzaSyB8Wq9eV3ikjiMQll-FFqe8wK5XOmnWF80
   - name: m2
     volume:
       size: 5Gi
